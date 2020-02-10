@@ -158,7 +158,6 @@ h5 {
 .nav {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   /* overflow: hidden; */
   position: fixed;
   top: 0;
@@ -168,7 +167,8 @@ h5 {
 
 .nav ul {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  flex-grow: 0.75;
 }
 
 .nav li {
