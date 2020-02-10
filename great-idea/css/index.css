@@ -190,22 +190,15 @@ a:hover {
   margin-left: 100px;
 }
 
-/* .hero {
-  display: flex;
-} */
-
 .hero ul {
   display: flex;
-}
-
-.hero li {
-  /* display: inline-block; */
 }
 
 .tagline {
   text-align: center;
   margin-left: 40px;
   margin-bottom: 100px;
+  margin-top: 40px;
 }
 
 .tagline h1 {
@@ -224,15 +217,12 @@ button {
   font-size: 18px;
 }
 
-.features li {
-  display: inline-block;
-  margin-top: 30px;
-  width: 400px;
+.features ul {
+  display: flex;
 }
 
 .features p {
   margin: 10px 0 40px 0;
-  max-width: 400px;
 }
 
 .first {
@@ -245,8 +235,10 @@ button {
   max-height: 100%;
 }
 
+.services ul {
+  display: flex;
+}
 .services li {
-  display: inline-block;
   width: 250px;
   margin: 30px 0 30px 20px;
 }
