@@ -153,12 +153,12 @@ h5 {
 .container {
   width: 850px;
   margin: 100px 100px;
-  display: flex;
-  flex-direction: column;
 }
 
 .nav {
-  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   /* overflow: hidden; */
   position: fixed;
   top: 0;
@@ -166,8 +166,12 @@ h5 {
   background-color: gray;
 }
 
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
 .nav li {
-  display: inline-block;
   margin: 2%;
   color: lightgray;
 }
