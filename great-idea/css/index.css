@@ -190,8 +190,16 @@ a:hover {
   margin-left: 100px;
 }
 
+/* .hero {
+  display: flex;
+} */
+
+.hero ul {
+  display: flex;
+}
+
 .hero li {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .tagline {
