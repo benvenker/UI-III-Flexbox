@@ -222,6 +222,10 @@ button {
   display: flex;
 }
 
+.features h5 {
+  margin-top: 30px;
+}
+
 .features p {
   margin: 10px 0 40px 0;
 }
