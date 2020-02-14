@@ -1,7 +1,11 @@
 .services-header-img {
-  margin-top: 100px;
+  margin-top: 50px;
   max-width: 100%;
   max-height: 100%;
+}
+
+h1 {
+  margin-top: 30px;
 }
 
 section {
@@ -14,6 +18,7 @@ section {
   border-top: 1px solid black;
   border-bottom: 2px solid black;
   margin: 30px 0;
+  align-content: center;
 }
 
 .panel {
@@ -22,14 +27,15 @@ section {
   border: 1px solid black;
   background-color: rgb(235, 235, 235);
   padding: 20px;
-  margin: 10px;
-  width: 430px;
+  margin: 20px;
+  width: 33.33%;
   height: 250px;
+  flex-grow: 2;
 }
 
 .button {
   margin-top: 50px;
-  width: 200px;
+  width: 150px;
   padding: 10px;
   background-color: white;
   border: 1px solid black;
@@ -43,4 +49,13 @@ footer {
 
 .footer-text {
   margin-right: 50px;
+}
+
+.footer-list {
+  margin: 20px;
+  list-style: circle;
+}
+
+.footer-list li {
+  margin: 20px;
 }
