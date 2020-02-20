@@ -80,6 +80,11 @@ footer {
     display: none;
   }
 
+  nav {
+    justify-content: space-between;
+    padding-left: 20%;
+  }
+
   section {
     margin-top: 100px;
     display: flex;
